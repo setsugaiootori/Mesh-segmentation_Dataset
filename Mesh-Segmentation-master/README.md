@@ -1,6 +1,6 @@
 # Mesh Segmentation
 
-This repository contains the source code for the paper [Feature-Aligned Segmentation using Correlation Clustering](http://yixina.net/projects/FeatureSeg/FeatureSeg_CVM17.pdf). The tool provides a very flexible way of segmenting a mesh into patches whose boundaries are aligned with prominent ridge and valley lines of the shape.
+This repository contains the source code for the paper [Feature-Aligned Segmentation using Correlation Clustering]. The tool provides a very flexible way of segmenting a mesh into patches whose boundaries are aligned with prominent ridge and valley lines of the shape.
 
 ![teaser](pictures/FeatureSeg.png)    
 
