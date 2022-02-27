@@ -1,0 +1,12 @@
+blade_smooth.obj
+bunny.obj
+chess.obj
+drum.obj
+face.obj
+harddisk.obj
+moaimoai.obj
+octaflower.obj
+phone.obj
+pulley.obj
+screwdriver.obj
+twirl.obj
