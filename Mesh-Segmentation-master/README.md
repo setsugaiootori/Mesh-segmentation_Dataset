@@ -20,15 +20,7 @@ Other dependencies can be found in the folder ./libs/.
 
 We use the source code of [Trimesh](http://graphics.stanford.edu/software/trimesh/) and [Crestline](http://www2.riken.jp/brict/Yoshizawa/Research/Crest.html) in our project.
 
-The compiled executable demo can be found [here](http://yixina.net/projects/FeatureSeg/FeatureSeg_demo.zip)
 
-## Run Executable Demo
-![tool](pictures/tool.png) 
-After reading a mesh, segmentation is automatically perfomred. Note that, the input mesh should be 2-manifold, possibly with open boundary.
-
-There is only one free parameter 'Alpha' to globally control the strength of features, resulting in different density of clustering. The user can +++Click Alpha Spin Button+++ to increase or decrease clusters.
-
-The algorithm takes feature line from crestline or user sketches as input, and computes the 'strength' of features and the saliency of other edges from mesh, and finally performs correlation clustering on the weighted mesh graph. Adding, deleting, or changing the importance of feature lines will change the graph weight, and finally modify the segmentation. Note that, the important of feature line can be changed locally, rather that just using a global alpha. 
 
 ## Interaction
 
